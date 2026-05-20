@@ -2,14 +2,18 @@
   "name": "youtubelikeapp",
   "version": "1.0.0",
   "description": "A youtube like app",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascrit",
     "backend"
   ],
   "author": "saurabh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
