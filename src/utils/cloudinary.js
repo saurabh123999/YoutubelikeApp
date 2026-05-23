@@ -9,7 +9,7 @@ import fs from 'fs';
     });
 
 
-    const uploadToCloudinary= async (localFilePath)=>{
+    const uploadOnCloudinary= async (localFilePath)=>{
         try {
             if(!localFilePath) return null
             // upload file to cloudinary
@@ -29,4 +29,4 @@ import fs from 'fs';
         }
     }
 
-    export {uploadToCloudinary};
+    export {uploadOnCloudinary};
