@@ -19,6 +19,7 @@ import fs from 'fs';
             })
             // file has been upload successfully
             console.log("file has been uploaded on cloudinary ",respone.url);
+            fs.unlinkSync(localFilePath)
             return respone;
             
         } catch (error) {
